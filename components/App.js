@@ -4,7 +4,7 @@ import axios from 'axios';
 import UserVideoComponent from './UserVideoComponent';
 import { useEffect, useState } from 'react';
 
-const APPLICATION_SERVER_URL = "http://107.20.26.173:8443/";
+const APPLICATION_SERVER_URL = "https://ena.jegal.shop:8443/";
 
 export default function App() {
     let OV = null;
